@@ -1,0 +1,12 @@
+Notes from the course
+
+- React is a client-side JavaScript library 
+- better for building modern, reactive user interfaces for the web
+- declarative, component focused approach 
+- build single-page-applications (SPAs)
+
+
+React Alternatives:
+
+Angular - complete component-based UI framework, packed with features. Uses TypeScript. Can be overkill for smaller projects.
+Vue.js - complete component-based UI framework, inclues most core features. A bit less popular than React & Angular.
