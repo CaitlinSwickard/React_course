@@ -40,3 +40,9 @@ JavaScriptXML
 Components: 
 Create a component folder, and a new file for each custom component you want to make. 
 Each custom component can have its own CSS file inside the component folder as well. 
+
+
+Props:
+Set properties of our own custom components.
+They are not limited to dynamically set values. You can hard code what is needed.
+For this project App.js >> passing props to ExpenseDate >> we passed through ExpenseItem
