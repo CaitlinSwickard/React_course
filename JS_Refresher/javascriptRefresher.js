@@ -31,12 +31,12 @@ export const baseData = 10;
 // file app.js
 // DEFAULT EXPORT
 // imports default and only export of the file Name
-import person from './person.js';
+import person from './person.js.js';
 
 // NAMED EXPORTS
 // import uses {} to specifically target named exports (by the const name between {})
-import { clean } from './utility.js';
-import { baseData } from './utility.js';
+import { clean } from './utility.js.js';
+import { baseData } from './utility.js.js';
 
 // OR import as a bundle
 // import * as bundled from './utiliy.js';
