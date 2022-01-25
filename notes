@@ -10,3 +10,11 @@ React Alternatives:
 
 Angular - complete component-based UI framework, packed with features. Uses TypeScript. Can be overkill for smaller projects.
 Vue.js - complete component-based UI framework, inclues most core features. A bit less popular than React & Angular.
+
+
+Components:
+React allows you to build reusable and reactive components consisting of HTML, CSS, and JavaScript. 
+Declarative approach is used.
+Define the desired target state(s) and let React figure out the actual JavaScript DOM instructions.
+
+Create react app:
