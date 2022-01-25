@@ -24,3 +24,19 @@ make sure you have node.js installed
 npx create-react-app name-of-app 
 cd name-of-app
 npm start
+
+
+SRC folder:
+index.js file - this is first file that the browser executes and then transforms it
+The public folder index.html has one div element that hold the id of root. This is where the index.js file is rendering to the browser.
+
+App.js file - exported to the index.js file. 
+
+
+JSX:
+JavaScriptXML 
+
+
+Components: 
+Create a component folder, and a new file for each custom component you want to make. 
+Each custom component can have its own CSS file inside the component folder as well. 
