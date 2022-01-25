@@ -17,4 +17,10 @@ React allows you to build reusable and reactive components consisting of HTML, C
 Declarative approach is used.
 Define the desired target state(s) and let React figure out the actual JavaScript DOM instructions.
 
+
 Create react app:
+make sure you have node.js installed
+
+npx create-react-app name-of-app 
+cd name-of-app
+npm start
