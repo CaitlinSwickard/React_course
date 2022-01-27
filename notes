@@ -2,8 +2,10 @@ Notes from the course
 
 - React is a client-side JavaScript library 
 - better for building modern, reactive user interfaces for the web
-- declarative, component focused approach 
+- declarative javaScript code, component focused approach 
 - build single-page-applications (SPAs)
+- with React, you build a component tree with one root component that's mounted into a DOM node
+- a component tree means that you have a root node which then has more components nested beneath it
 
 
 React Alternatives:
@@ -14,7 +16,8 @@ Vue.js - complete component-based UI framework, inclues most core features. A bi
 
 Components:
 React allows you to build reusable and reactive components consisting of HTML, CSS, and JavaScript. 
-Declarative approach is used.
+A component is a javascript function which typically returns HTML(JSX) code that should be displayed.
+Declarative approach is used:
 Define the desired target state(s) and let React figure out the actual JavaScript DOM instructions.
 
 
@@ -35,14 +38,20 @@ App.js file - exported to the index.js file.
 
 JSX:
 JavaScriptXML 
+A special, non-standard syntax which is enabled in React projects
+To output dynamic data in React components, you can use single curly braces {} with any JS expression between them.
+
 
 
 Components: 
 Create a component folder, and a new file for each custom component you want to make. 
 Each custom component can have its own CSS file inside the component folder as well. 
+Every UI in the end is made up of multiple building blocks (=components), 
+hence it makes sense to think about user interface as 'combinations of components'.
 
 
 Props:
+You pass data between components via 'custom HTML attributes' (know as props)
 Set properties of our own custom components.
 They are not limited to dynamically set values. You can hard code what is needed.
 For this project App.js >> passing props to ExpenseDate >> we passed through ExpenseItem

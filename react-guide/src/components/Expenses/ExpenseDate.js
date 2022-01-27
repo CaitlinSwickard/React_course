@@ -1,5 +1,7 @@
+import React from 'react';
 import './ExpenseDate.css'
 
+// you can switch function to arrow function if wanted
 function ExpenseDate(props) {
   {/* look up docs on toLocalSting() method for date setting */ }
   const month = props.date.toLocaleString('en-US', { month: 'long' });
